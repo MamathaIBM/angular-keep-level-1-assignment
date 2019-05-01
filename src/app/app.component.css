@@ -1,0 +1,32 @@
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.noteInputContainer {
+  width: 50vw;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.noteInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.noteButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.matCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.matCards {
+  width: 20vw;
+  margin: 20px;
+}
