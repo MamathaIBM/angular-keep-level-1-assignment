@@ -4,5 +4,7 @@ COPY package.json package-lock.json ./
 COPY server/db.json ./
 RUN npm install
 COPY . .
+RUN npm install -g json-server
+COPY . .
 RUN json-server server/db.json
 RUN npm run start
